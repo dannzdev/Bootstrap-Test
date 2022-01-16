@@ -1,5 +1,5 @@
 #hero {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 .main-text {
   font-size: 2rem;
@@ -10,11 +10,82 @@
   color: #3F3D56;
 }
 
+#arrow-left p {
+  line-height: 100%;
+}
+
 #buttons-container a {
   line-height: 5rem;
-  font-size: large;
+  font-size: 1.6rem;
   padding: 0;
   width: 30rem !important;
   height: 5rem !important;
 }
+
+#buttons-container .question {
+  cursor: pointer;
+}
+
+
+#container-bar {
+  width: 14.3rem !important;
+  height: 0.5rem !important;
+}
+
+#container-bar .color {
+  background-color: #7C7C7C !important;
+}
+
+.title {
+  font-size: 2.8rem;
+  margin-top: 3.6rem;
+}
+
+#labels-container div {
+  height: 4.2rem !important;
+  background-color: #F5F8FF !important;
+}
+#labels-container .form-check {
+  padding-left: 0 !important;
+}
+
+.radio-button {
+  margin: 0.9rem 1.5rem !important;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.form-check-input:checked {
+  background-color: black !important;
+  border-color: white !important;
+}
+
+#id-number {
+  height:3.7rem;
+  background-color: #FAFBFE !important;
+  border: 2px solid #A1AAC9 !important;
+  font-size: 1.6rem;
+}
+
+//Modal
+.modal {
+  bottom: 0 !important;
+}
+.modal-content {
+  border-radius: 1rem !important;
+  height: 42rem !important;
+}
+.modal-header {
+ border-bottom: none !important;
+}
+.modal-body {
+  padding: 2rem !important;
+}
+.modal-dialog {
+  margin: 0 !important;
+}
+.modal-dialog-centered {
+  align-items: flex-end !important;
+}
+
 
