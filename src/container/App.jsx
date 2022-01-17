@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Feedback from "@pages/Feedback";
 import Identity from "@pages/Identity";
 import Welcome from "@pages/Welcome";
+import NotFound from "@pages/NotFound";
 
 const App = () => {
 	return (
@@ -11,7 +12,7 @@ const App = () => {
 				<Route exact path="/" element={<Welcome />} />
 				<Route exact path="/identity" element={<Identity />} />
 				<Route exact path="/feedback" element={<Feedback />} />
-				{/* <Route path="*" element={NotFound} /> */}
+				<Route path="/*" element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>
 	);

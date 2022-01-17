@@ -1,3 +1,5 @@
+//First View Styles ( Image, Text, Icons)
+
 #hero {
 	margin-top: 6rem;
 }
@@ -13,6 +15,8 @@
 #arrow-left p {
 	line-height: 100%;
 }
+
+//Buttons
 
 #buttons-container a {
 	line-height: 5rem;
@@ -31,6 +35,8 @@
 	height: 0.5rem !important;
 }
 
+//ProgressBar
+
 #container-bar .color {
 	background-color: $progress-bg !important;
 }
@@ -39,6 +45,8 @@
 	font-size: 2.8rem;
 	margin-top: 3.6rem;
 }
+
+//Labels & Inputs
 
 #labels-container div {
 	height: 4.2rem !important;
@@ -67,6 +75,7 @@
 }
 
 //Modal
+
 .modal {
 	bottom: 0 !important;
 }
@@ -76,7 +85,7 @@
 }
 .modal-header {
 	border-bottom: none !important;
-  padding: 2rem 2rem !important;
+	padding: 2rem 2rem !important;
 }
 .modal-body {
 	padding: 2rem !important;
@@ -86,9 +95,9 @@
 }
 .modal-dialog-centered {
 	align-items: flex-end !important;
-  justify-self: center !important;
+	justify-self: center !important;
 }
 
 .modal-dialog-centered {
-  min-height: 1 !important;
+	min-height: 1 !important;
 }

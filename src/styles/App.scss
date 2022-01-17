@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
+//Global Styles to Format
+
 * {
 	margin: 0;
 	padding: 0;
@@ -23,5 +25,6 @@ $input-bg: #A1AAC9;
 $progress-bg: #7C7C7C;
 $fdbck-view-text-color: #3f3d56;
 
+//Imports de Modificaciones de Bootstrap
 
 @import "./styles.scss";
