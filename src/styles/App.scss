@@ -1,21 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
 }
 
+//Colores
+$labesls-bg: #F5F8FF;
+$radio-bg: #FAFBFE;
+$input-bg: #A1AAC9;
+$progress-bg: #7C7C7C;
+$fdbck-view-text-color: #3f3d56;
 
-@import './styles.scss';
+
+@import "./styles.scss";
